@@ -1,40 +1,52 @@
 # AI-Powered Software Testing Agent
 
-An AI-assisted software testing automation project that generates API test scenarios, executes test cases, analyzes test coverage and performance, tracks historical results, and produces an interactive HTML testing dashboard.
+An AI-assisted software testing automation framework that generates API test scenarios, executes automated tests, analyzes coverage and performance, tracks historical results, and produces an interactive HTML dashboard.
+
+**Built with Python, Pytest, Playwright, Flask, and OpenAI API.**
 
 ## Project Overview
 
-The AI Testing Agent is designed to reduce manual testing effort by automating test generation, execution, analysis, and reporting.
+The AI-Powered Software Testing Agent aims to reduce manual testing effort by combining traditional software test automation with AI-assisted test generation and intelligent test analysis.
 
-It combines traditional automation testing techniques with AI-assisted test recommendations and historical test analytics.
+The framework can execute test scenarios against a local authentication API, analyze execution results, identify potential testing gaps, monitor historical performance, and generate a consolidated HTML dashboard.
 
 ## Key Features
 
-- **UI Automation:** Automates login scenarios using Playwright and pytest.
+- **UI Automation:** Automates browser-based login scenarios using Playwright and Pytest.
 - **API Testing:** Tests REST API endpoints using Python Requests.
-- **Test Case Generation:** Generates API test scenarios using AI.
-- **Batch Test Execution:** Executes generated test cases against a local Flask API.
-- **Test Coverage Analysis:** Identifies missing, unexecuted, and failed test scenarios.
-- **Historical Analysis:** Tracks test execution results across multiple runs.
-- **Performance Analysis:** Detects unusual execution-time variations.
-- **Weak Area Detection:** Identifies test cases that may need further investigation.
-- **Improvement Tracking:** Compares recent execution times against previous results.
-- **HTML Dashboard:** Generates a detailed report with execution statistics, charts, and analysis.
+- **AI-Based Test Generation:** Generates API test scenarios using AI.
+- **Batch Test Execution:** Executes generated test cases against a local Flask authentication API.
+- **Coverage Analysis:** Identifies missing, unexecuted, and failed test scenarios.
+- **Historical Test Analysis:** Tracks test results across multiple execution runs.
+- **Performance Analysis:** Identifies unusual test execution-time variations.
+- **Weak Area Detection:** Highlights test cases that may require further investigation.
+- **Improvement Tracking:** Compares recent test execution performance with historical results.
+- **Interactive HTML Dashboard:** Presents test statistics, historical trends, performance analysis, and coverage insights.
 
-## Technologies Used
+## Technology Stack
 
 | Technology | Purpose |
 |---|---|
-| Python | Main programming language |
+| Python | Core programming language |
+| Pytest | Test execution and test framework |
 | Playwright | Browser automation |
-| Pytest | Test execution framework |
-| Requests | API testing |
+| Requests | REST API testing |
 | Flask | Local authentication API |
-| OpenAI API | AI-assisted test generation and analysis |
-| JSON | Test data and execution results |
-| HTML, CSS, JavaScript | Test dashboard and reports |
-| Chart.js | Dashboard visualizations |
-| Git | Version control |
+| OpenAI API | AI-assisted test generation and recommendations |
+| JSON | Test data, configurations, and execution results |
+| HTML, CSS, JavaScript | Dashboard interface |
+| Chart.js | Data visualization |
+| Git and GitHub | Version control and project hosting |
+
+## Project Architecture
+
+The project follows a modular architecture:
+
+1. **Test Automation Layer:** Runs UI and API automation tests.
+2. **AI Test Generation Layer:** Generates additional test scenarios and recommendations.
+3. **Execution Layer:** Executes generated test cases against the local API.
+4. **Analysis Layer:** Performs coverage, historical, performance, and weak-area analysis.
+5. **Reporting Layer:** Combines the results into an interactive HTML dashboard.
 
 ## Project Structure
 
@@ -53,42 +65,56 @@ ai-testing-agent/
 ├── test_data/
 │   └── login_data.json
 │
-├── screenshots/
-├── logs/
-│
 ├── ai_client.py
 ├── ai_test_generator.py
 ├── ai_gap_recommender.py
+│
 ├── execute_generated_tests.py
 ├── generated_test_cases.json
 ├── execution_results.json
+├── execution_history.json
 │
 ├── coverage_analyzer.py
-├── historical_test_analyzer.py
-├── performance_analyzer.py
-├── weak_area_detector.py
-├── improvement_tracker.py
-│
-├── generate_html_report.py
-├── execution_history.json
+├── coverage_groups.json
+├── coverage_suggestions.json
 ├── gap_analysis_report.json
+│
+├── historical_test_analyzer.py
+├── history_analyzer.py
+├── historical_analysis.json
+├── trend_analyzer.py
+│
+├── performance_analyzer.py
 ├── performance_analysis.json
+├── weak_area_detector.py
 ├── weak_area_analysis.json
+├── improvement_tracker.py
 ├── improvement_tracking.json
 │
+├── failure_analyzer.py
+├── generate_html_report.py
+├── execution_report.html
+│
 ├── main.py
-├── .env
-├── .gitignore
-└── README.md
+├── test_login.py
+├── test_playwright.py
+├── test_logger.py
+├── logger_config.py
+├── read_json.py
+│
+├── README.md
+└── .gitignore
 ```
+
+The `.env` file, virtual environment, logs, screenshots, and Python cache files are kept locally and excluded from Git using `.gitignore`.
 
 ## Setup and Installation
 
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-cd ai-testing-agent
+git clone https://github.com/Jangilishravan/ai-powered-testing-agent.git
+cd ai-powered-testing-agent
 ```
 
 ### 2. Create a virtual environment
@@ -99,7 +125,7 @@ python -m venv venv
 
 ### 3. Activate the virtual environment
 
-Windows PowerShell:
+For Windows PowerShell:
 
 ```powershell
 .\venv\Scripts\Activate.ps1
@@ -123,14 +149,15 @@ Create a `.env` file in the project root:
 
 ```env
 OPENAI_API_KEY=your_openai_api_key
-OPENAI_MODEL=your_supported_model_name
 ```
 
-Never commit your actual API key to GitHub.
+Never upload your actual API key to GitHub.
+
+AI-powered features require a valid API key and a supported model configuration. Core test execution and analysis can be performed without enabling optional AI insights.
 
 ## Running the Project
 
-### Start the local Flask API
+### 1. Start the local Flask API
 
 Open the first terminal:
 
@@ -138,85 +165,83 @@ Open the first terminal:
 python -m api_tests.auth_server
 ```
 
-The local API runs at:
+The local API will run at:
 
 ```text
 http://127.0.0.1:5000
 ```
 
-Keep this terminal running while executing the API tests.
+Keep this terminal running while executing authentication tests.
 
-### Run API tests
-
-Open a second terminal:
+### 2. Run API tests
 
 ```bash
 pytest api_tests/test_api.py -v
 ```
 
-### Run authentication tests
+### 3. Run authentication tests
 
 ```bash
 pytest api_tests/test_auth.py -v
 ```
 
-### Execute AI-generated test cases
+### 4. Execute generated test cases
 
 ```bash
 python execute_generated_tests.py
 ```
 
-This executes the generated test scenarios and records the results.
+This executes the generated scenarios and records their results.
 
-**Note:** This workflow may use OpenAI API credits depending on the configured AI features.
+Some AI-related operations may consume OpenAI API credits.
 
-### Run coverage analysis
+### 5. Run coverage analysis
 
 ```bash
 python coverage_analyzer.py
 ```
 
-### Run historical analysis
+### 6. Run historical analysis
 
 ```bash
 python historical_test_analyzer.py
 ```
 
-### Run performance analysis
+### 7. Run performance analysis
 
 ```bash
 python performance_analyzer.py
 ```
 
-### Run weak-area detection
+### 8. Run weak-area detection
 
 ```bash
 python weak_area_detector.py
 ```
 
-### Run improvement tracking
+### 9. Run improvement tracking
 
 ```bash
 python improvement_tracker.py
 ```
 
-### Generate the HTML dashboard
+### 10. Generate the HTML dashboard
 
 ```bash
 python generate_html_report.py
 ```
 
-Open the generated report:
+Open the report:
 
 ```powershell
 Start-Process execution_report.html
 ```
 
-AI-generated report insights are optional and disabled by default to conserve API credits.
+Optional AI-generated dashboard insights are disabled by default to conserve API credits.
 
 ## Current Project Results
 
-The current verified execution contains:
+The following results were verified during a development execution:
 
 | Metric | Result |
 |---|---:|
@@ -229,17 +254,19 @@ The current verified execution contains:
 | Historical Runs | 17 |
 | Detected Weak Areas | 5 |
 
-These are results from a recorded development run and may change as new tests are added.
+**Note:** The 100% execution coverage represents all 32 generated test cases being executed. It does not mean every possible application scenario has been tested. Results may change as the project evolves.
 
 ## Future Enhancements
 
 - Integration with CI/CD pipelines.
-- Support for additional API endpoints.
+- Support for additional API endpoints and applications.
 - More advanced AI-based test recommendations.
 - Automated test scheduling.
-- Enhanced dashboard filtering and export options.
+- Enhanced dashboard filtering and report export.
+- Expanded test coverage and reliability analysis.
 
 ## Author
 
 **Jangili Shravan Kumar**
 
+GitHub: [Jangilishravan](https://github.com/Jangilishravan)
