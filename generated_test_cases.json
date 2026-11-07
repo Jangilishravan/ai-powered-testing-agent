@@ -1,0 +1,325 @@
+[
+    {
+        "Test Case ID": "TC001",
+        "Scenario": "Valid Login",
+        "Expected Result": "Login successful",
+        "Expected Status Code": 200,
+        "Payload": {
+            "username": "sunny",
+            "password": "sunny123"
+        }
+    },
+    {
+        "Test Case ID": "TC002",
+        "Scenario": "Invalid Login",
+        "Expected Result": "Login rejected",
+        "Expected Status Code": 401,
+        "Payload": {
+            "username": "wrong",
+            "password": "wrong123"
+        }
+    },
+    {
+        "Test Case ID": "TC003",
+        "Scenario": "Missing Password",
+        "Expected Result": "Validation error",
+        "Expected Status Code": 400,
+        "Payload": {
+            "username": "sunny"
+        }
+    },
+    {
+        "Test Case ID": "TC004",
+        "Scenario": "Empty Username",
+        "Expected Result": "Validation error",
+        "Expected Status Code": 400,
+        "Payload": {
+            "username": "",
+            "password": "sunny123"
+        }
+    },
+    {
+        "Test Case ID": "TC005",
+        "Scenario": "Empty Password",
+        "Expected Result": "Validation error",
+        "Expected Status Code": 400,
+        "Payload": {
+            "username": "sunny",
+            "password": ""
+        }
+    },
+    {
+        "Test Case ID": "TC006",
+        "Scenario": "Both Fields Empty",
+        "Expected Result": "Validation error",
+        "Expected Status Code": 400,
+        "Payload": {
+            "username": "",
+            "password": ""
+        }
+    },
+    {
+        "Test Case ID": "TC007",
+        "Scenario": "Whitespace-Only Inputs",
+        "Expected Result": "Validation error",
+        "Expected Status Code": 400,
+        "Payload": {
+            "username": "   ",
+            "password": "   "
+        }
+    },
+    {
+        "Test Case ID": "TC008",
+        "Scenario": "Invalid Input Format",
+        "Expected Result": "Validation error",
+        "Expected Status Code": 400,
+        "Payload": {
+            "username": "sunny@123",
+            "password": "sunny123"
+        }
+    },
+    {
+        "Test Case ID": "TC009",
+        "Scenario": "SQL Injection Attempt",
+        "Expected Result": "Validation error",
+        "Expected Status Code": 400,
+        "Payload": {
+            "username": "' OR '1'='1",
+            "password": "anything"
+        }
+    },
+    {
+        "Test Case ID": "TC010",
+        "Scenario": "Missing Username",
+        "Expected Result": "Validation error",
+        "Expected Status Code": 400,
+        "Payload": {
+            "password": "sunny123"
+        }
+    },
+    {
+        "Test Case ID": "TC011",
+        "Scenario": "Unexpected Data Types",
+        "Expected Result": "Validation error",
+        "Expected Status Code": 400,
+        "Payload": {
+            "username": 123,
+            "password": "sunny123"
+        }
+    },
+    {
+        "Test Case ID": "TC012",
+        "Scenario": "Username With Leading or Trailing Whitespace",
+        "Expected Result": "Validation error",
+        "Expected Status Code": 400,
+        "Payload": {
+            "username": " sunny ",
+            "password": "sunny123"
+        }
+    },
+    {
+        "Test Case ID": "TC013",
+        "Scenario": "Username With Special Characters",
+        "Expected Result": "Validation error",
+        "Expected Status Code": 400,
+        "Payload": {
+            "username": "sunny@",
+            "password": "sunny123"
+        }
+    },
+    {
+        "Scenario": "Username Below Minimum Length",
+        "Expected Result": "Validation error",
+        "Expected Status Code": 400,
+        "Payload": {
+            "username": "ab",
+            "password": "sunny123"
+        },
+        "Test Case ID": "TC014"
+    },
+    {
+        "Scenario": "Username At Minimum Length",
+        "Expected Result": "Invalid credentials",
+        "Expected Status Code": 401,
+        "Payload": {
+            "username": "abc",
+            "password": "sunny123"
+        },
+        "Test Case ID": "TC015"
+    },
+    {
+        "Scenario": "Username At Maximum Length",
+        "Expected Result": "Invalid credentials",
+        "Expected Status Code": 401,
+        "Payload": {
+            "username": "abcdefghijklmnopqrst",
+            "password": "sunny123"
+        },
+        "Test Case ID": "TC016"
+    },
+    {
+        "Scenario": "Username Above Maximum Length",
+        "Expected Result": "Validation error",
+        "Expected Status Code": 400,
+        "Payload": {
+            "username": "abcdefghijklmnopqrstu",
+            "password": "sunny123"
+        },
+        "Test Case ID": "TC017"
+    },
+    {
+        "Scenario": "Password Below Minimum Length",
+        "Expected Result": "Validation error",
+        "Expected Status Code": 400,
+        "Payload": {
+            "username": "sunny",
+            "password": "abcde"
+        },
+        "Test Case ID": "TC018"
+    },
+    {
+        "Scenario": "Password At Minimum Length",
+        "Expected Result": "Invalid credentials",
+        "Expected Status Code": 401,
+        "Payload": {
+            "username": "sunny",
+            "password": "abcdef"
+        },
+        "Test Case ID": "TC019"
+    },
+    {
+        "Scenario": "Password At Maximum Length",
+        "Expected Result": "Invalid credentials",
+        "Expected Status Code": 401,
+        "Payload": {
+            "username": "sunny",
+            "password": "abcdefghijklmnopqrstuvwx123456"
+        },
+        "Test Case ID": "TC020"
+    },
+    {
+        "Scenario": "Password Above Maximum Length",
+        "Expected Result": "Validation error",
+        "Expected Status Code": 400,
+        "Payload": {
+            "username": "sunny",
+            "password": "abcdefghijklmnopqrstuvwx1234567"
+        },
+        "Test Case ID": "TC021"
+    },
+    {
+        "Test Case ID": "TC022",
+        "Scenario": "Malformed JSON Request Body",
+        "Expected Result": "Request body is required",
+        "Expected Status Code": 400,
+        "Request Mode": "raw",
+        "Raw Body": "{\"username\": \"sunny\", \"password\": "
+    },
+    {
+        "Test Case ID": "TC023",
+        "Scenario": "Request with Unexpected Extra Fields",
+        "Expected Result": "Login successful",
+        "Expected Status Code": 200,
+        "Payload": {
+            "username": "sunny",
+            "password": "sunny123",
+            "role": "admin",
+            "extra": "unexpected"
+        }
+    },
+    {
+        "Scenario": "Valid Username with Incorrect Password",
+        "Expected Result": "Authentication rejected",
+        "Expected Status Code": 401,
+        "Payload": {
+            "username": "sunny",
+            "password": "wrong123"
+        },
+        "Test Case ID": "TC024"
+    },
+    {
+        "Scenario": "Null Credential Values",
+        "Expected Result": "Validation error",
+        "Expected Status Code": 400,
+        "Payload": {
+            "username": null,
+            "password": null
+        },
+        "Test Case ID": "TC025"
+    },
+    {
+        "Scenario": "Non-String Password - Numeric",
+        "Expected Result": "Validation error",
+        "Expected Status Code": 400,
+        "Payload": {
+            "username": "sunny",
+            "password": 123456
+        },
+        "Test Case ID": "TC026"
+    },
+    {
+        "Scenario": "Non-String Password - Array",
+        "Expected Result": "Validation error",
+        "Expected Status Code": 400,
+        "Payload": {
+            "username": "sunny",
+            "password": [
+                "password123"
+            ]
+        },
+        "Test Case ID": "TC027"
+    },
+    {
+        "Scenario": "Non-String Password - Object",
+        "Expected Result": "Validation error",
+        "Expected Status Code": 400,
+        "Payload": {
+            "username": "sunny",
+            "password": {
+                "value": "password123"
+            }
+        },
+        "Test Case ID": "TC028"
+    },
+{
+    "Test Case ID": "TC029",
+    "Scenario": "Username With Array Data Type",
+    "Expected Result": "Validation error",
+    "Expected Status Code": 400,
+    "Payload": {
+        "username": ["sunny"],
+        "password": "sunny123"
+    }
+},
+{
+    "Test Case ID": "TC030",
+    "Scenario": "Username With Object Data Type",
+    "Expected Result": "Validation error",
+    "Expected Status Code": 400,
+    "Payload": {
+        "username": {"value": "sunny"},
+        "password": "sunny123"
+    }
+}
+,
+{
+    "Test Case ID": "TC031",
+    "Scenario": "Username With Boolean Data Type",
+    "Expected Result": "Validation error",
+    "Expected Status Code": 400,
+    "Payload": {
+        "username": true,
+        "password": "sunny123"
+    }
+},
+{
+    "Test Case ID": "TC032",
+    "Scenario": "Password With Boolean Data Type",
+    "Expected Result": "Validation error",
+    "Expected Status Code": 400,
+    "Payload": {
+        "username": "sunny",
+        "password": false
+    }
+}
+]

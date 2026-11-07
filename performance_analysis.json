@@ -1,0 +1,263 @@
+{
+    "Minimum Required Observations": 5,
+    "MAD Threshold": 3.5,
+    "Zero MAD Multiplier": 2.5,
+    "Tests Analyzed": 21,
+    "Tests With Insufficient Data": 11,
+    "Insufficient Data Test IDs": [
+        "TC022",
+        "TC023",
+        "TC024",
+        "TC025",
+        "TC026",
+        "TC027",
+        "TC028",
+        "TC029",
+        "TC030",
+        "TC031",
+        "TC032"
+    ],
+    "Potential Performance Concerns": 5,
+    "Performance Results": [
+        {
+            "Test Case ID": "TC004",
+            "Observations": 17,
+            "Average Execution Time": 0.0205,
+            "Median Execution Time": 0.0165,
+            "Maximum Execution Time": 0.0997,
+            "Unusual Slow Execution Count": 1,
+            "Slow Executions": [
+                {
+                    "Run ID": "20261106_152843",
+                    "Execution Date": "2026-11-06 15:28:43",
+                    "Execution Time": 0.0997
+                }
+            ],
+            "Potential Performance Concern": true
+        },
+        {
+            "Test Case ID": "TC005",
+            "Observations": 14,
+            "Average Execution Time": 0.0198,
+            "Median Execution Time": 0.0168,
+            "Maximum Execution Time": 0.067,
+            "Unusual Slow Execution Count": 1,
+            "Slow Executions": [
+                {
+                    "Run ID": "20261106_200412",
+                    "Execution Date": "2026-11-06 20:04:12",
+                    "Execution Time": 0.067
+                }
+            ],
+            "Potential Performance Concern": true
+        },
+        {
+            "Test Case ID": "TC016",
+            "Observations": 7,
+            "Average Execution Time": 0.0171,
+            "Median Execution Time": 0.0169,
+            "Maximum Execution Time": 0.0281,
+            "Unusual Slow Execution Count": 1,
+            "Slow Executions": [
+                {
+                    "Run ID": "20261106_231104",
+                    "Execution Date": "2026-11-06 23:11:04",
+                    "Execution Time": 0.0281
+                }
+            ],
+            "Potential Performance Concern": true
+        },
+        {
+            "Test Case ID": "TC019",
+            "Observations": 7,
+            "Average Execution Time": 0.0128,
+            "Median Execution Time": 0.0096,
+            "Maximum Execution Time": 0.0247,
+            "Unusual Slow Execution Count": 1,
+            "Slow Executions": [
+                {
+                    "Run ID": "20261106_231104",
+                    "Execution Date": "2026-11-06 23:11:04",
+                    "Execution Time": 0.0247
+                }
+            ],
+            "Potential Performance Concern": true
+        },
+        {
+            "Test Case ID": "TC020",
+            "Observations": 7,
+            "Average Execution Time": 0.0194,
+            "Median Execution Time": 0.0194,
+            "Maximum Execution Time": 0.026,
+            "Unusual Slow Execution Count": 1,
+            "Slow Executions": [
+                {
+                    "Run ID": "20261106_200412",
+                    "Execution Date": "2026-11-06 20:04:12",
+                    "Execution Time": 0.026
+                }
+            ],
+            "Potential Performance Concern": true
+        },
+        {
+            "Test Case ID": "TC001",
+            "Observations": 17,
+            "Average Execution Time": 0.0291,
+            "Median Execution Time": 0.0272,
+            "Maximum Execution Time": 0.0457,
+            "Unusual Slow Execution Count": 0,
+            "Slow Executions": [],
+            "Potential Performance Concern": false
+        },
+        {
+            "Test Case ID": "TC002",
+            "Observations": 17,
+            "Average Execution Time": 0.0183,
+            "Median Execution Time": 0.0193,
+            "Maximum Execution Time": 0.0299,
+            "Unusual Slow Execution Count": 0,
+            "Slow Executions": [],
+            "Potential Performance Concern": false
+        },
+        {
+            "Test Case ID": "TC003",
+            "Observations": 17,
+            "Average Execution Time": 0.0163,
+            "Median Execution Time": 0.0173,
+            "Maximum Execution Time": 0.0244,
+            "Unusual Slow Execution Count": 0,
+            "Slow Executions": [],
+            "Potential Performance Concern": false
+        },
+        {
+            "Test Case ID": "TC006",
+            "Observations": 15,
+            "Average Execution Time": 0.0127,
+            "Median Execution Time": 0.0098,
+            "Maximum Execution Time": 0.0234,
+            "Unusual Slow Execution Count": 0,
+            "Slow Executions": [],
+            "Potential Performance Concern": false
+        },
+        {
+            "Test Case ID": "TC007",
+            "Observations": 16,
+            "Average Execution Time": 0.0154,
+            "Median Execution Time": 0.0144,
+            "Maximum Execution Time": 0.034,
+            "Unusual Slow Execution Count": 0,
+            "Slow Executions": [],
+            "Potential Performance Concern": false
+        },
+        {
+            "Test Case ID": "TC008",
+            "Observations": 15,
+            "Average Execution Time": 0.0154,
+            "Median Execution Time": 0.0162,
+            "Maximum Execution Time": 0.0305,
+            "Unusual Slow Execution Count": 0,
+            "Slow Executions": [],
+            "Potential Performance Concern": false
+        },
+        {
+            "Test Case ID": "TC009",
+            "Observations": 15,
+            "Average Execution Time": 0.0164,
+            "Median Execution Time": 0.0155,
+            "Maximum Execution Time": 0.0315,
+            "Unusual Slow Execution Count": 0,
+            "Slow Executions": [],
+            "Potential Performance Concern": false
+        },
+        {
+            "Test Case ID": "TC010",
+            "Observations": 15,
+            "Average Execution Time": 0.0186,
+            "Median Execution Time": 0.0183,
+            "Maximum Execution Time": 0.0329,
+            "Unusual Slow Execution Count": 0,
+            "Slow Executions": [],
+            "Potential Performance Concern": false
+        },
+        {
+            "Test Case ID": "TC011",
+            "Observations": 15,
+            "Average Execution Time": 0.0155,
+            "Median Execution Time": 0.0125,
+            "Maximum Execution Time": 0.028,
+            "Unusual Slow Execution Count": 0,
+            "Slow Executions": [],
+            "Potential Performance Concern": false
+        },
+        {
+            "Test Case ID": "TC012",
+            "Observations": 15,
+            "Average Execution Time": 0.0155,
+            "Median Execution Time": 0.0161,
+            "Maximum Execution Time": 0.028,
+            "Unusual Slow Execution Count": 0,
+            "Slow Executions": [],
+            "Potential Performance Concern": false
+        },
+        {
+            "Test Case ID": "TC013",
+            "Observations": 11,
+            "Average Execution Time": 0.0129,
+            "Median Execution Time": 0.0112,
+            "Maximum Execution Time": 0.0211,
+            "Unusual Slow Execution Count": 0,
+            "Slow Executions": [],
+            "Potential Performance Concern": false
+        },
+        {
+            "Test Case ID": "TC014",
+            "Observations": 7,
+            "Average Execution Time": 0.014,
+            "Median Execution Time": 0.0107,
+            "Maximum Execution Time": 0.0221,
+            "Unusual Slow Execution Count": 0,
+            "Slow Executions": [],
+            "Potential Performance Concern": false
+        },
+        {
+            "Test Case ID": "TC015",
+            "Observations": 7,
+            "Average Execution Time": 0.0198,
+            "Median Execution Time": 0.0162,
+            "Maximum Execution Time": 0.043,
+            "Unusual Slow Execution Count": 0,
+            "Slow Executions": [],
+            "Potential Performance Concern": false
+        },
+        {
+            "Test Case ID": "TC017",
+            "Observations": 7,
+            "Average Execution Time": 0.0174,
+            "Median Execution Time": 0.0164,
+            "Maximum Execution Time": 0.036,
+            "Unusual Slow Execution Count": 0,
+            "Slow Executions": [],
+            "Potential Performance Concern": false
+        },
+        {
+            "Test Case ID": "TC018",
+            "Observations": 7,
+            "Average Execution Time": 0.0249,
+            "Median Execution Time": 0.0216,
+            "Maximum Execution Time": 0.0392,
+            "Unusual Slow Execution Count": 0,
+            "Slow Executions": [],
+            "Potential Performance Concern": false
+        },
+        {
+            "Test Case ID": "TC021",
+            "Observations": 7,
+            "Average Execution Time": 0.0199,
+            "Median Execution Time": 0.0201,
+            "Maximum Execution Time": 0.0265,
+            "Unusual Slow Execution Count": 0,
+            "Slow Executions": [],
+            "Potential Performance Concern": false
+        }
+    ]
+}

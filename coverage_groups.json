@@ -1,0 +1,13 @@
+
+{
+    "Credential Length Boundaries": [
+        "Username Below Minimum Length",
+        "Username At Minimum Length",
+        "Username At Maximum Length",
+        "Username Above Maximum Length",
+        "Password Below Minimum Length",
+        "Password At Minimum Length",
+        "Password At Maximum Length",
+        "Password Above Maximum Length"
+    ]
+}

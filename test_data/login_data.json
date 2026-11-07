@@ -1,0 +1,32 @@
+[
+    {
+        "username": "standard_user",
+        "password": "secret_sauce",
+        "expected": "success",
+        "id": "valid-login"
+    },
+    {
+        "username": "wrong_user",
+        "password": "wrong123",
+        "expected": "failure",
+        "id": "invalid-username"
+    },
+    {
+        "username": "standard_user",
+        "password": "wrong123",
+        "expected": "failure",
+        "id": "invalid-password"
+    },
+    {
+        "username": "wrong_user",
+        "password": "secret_sauce",
+        "expected": "failure",
+        "id": "both-invalid"
+    },
+    {
+        "username": "",
+        "password": "",
+        "expected": "failure",
+        "id": "empty-credentials"
+    }
+]

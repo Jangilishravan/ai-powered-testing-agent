@@ -1,0 +1,17 @@
+[
+    {
+        "Scenario": "Valid Username with Incorrect Password",
+        "Reason": "Separates password verification from invalid-username handling and confirms that a known account cannot authenticate with an incorrect password.",
+        "Priority": "High"
+    },
+    {
+        "Scenario": "Null Credential Values",
+        "Reason": "Checks that explicit JSON null values for username and password are handled as invalid input rather than causing an error or being accepted.",
+        "Priority": "High"
+    },
+    {
+        "Scenario": "Non-String Password",
+        "Reason": "Verifies that a password supplied as a number, array, or object is rejected safely instead of being coerced or causing an unhandled error.",
+        "Priority": "Medium"
+    }
+]

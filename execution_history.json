@@ -1,0 +1,3029 @@
+[
+    {
+        "Run ID": "20261106_130914",
+        "Execution Date": "2026-11-06 13:09:14",
+        "Total Tests": 9,
+        "Passed": 9,
+        "Failed": 0,
+        "Pass Percentage": 100.0,
+        "Average Execution Time": 0.0207,
+        "Test Results": [
+            {
+                "Test Case ID": "TC001",
+                "Scenario": "Valid Login",
+                "Expected Status": 200,
+                "Actual Status": 200,
+                "Response Message": "Login successful",
+                "Execution Time": 0.0336,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 13:09:14"
+            },
+            {
+                "Test Case ID": "TC002",
+                "Scenario": "Invalid Login",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.0205,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 13:09:14"
+            },
+            {
+                "Test Case ID": "TC003",
+                "Scenario": "Missing Password",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.019,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 13:09:14"
+            },
+            {
+                "Test Case ID": "TC004",
+                "Scenario": "Empty Username",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username is required",
+                "Execution Time": 0.0222,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 13:09:14"
+            },
+            {
+                "Test Case ID": "TC005",
+                "Scenario": "Empty Password",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Password is required",
+                "Execution Time": 0.0175,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 13:09:14"
+            },
+            {
+                "Test Case ID": "TC006",
+                "Scenario": "Both Fields Empty",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password are required",
+                "Execution Time": 0.017,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 13:09:14"
+            },
+            {
+                "Test Case ID": "TC007",
+                "Scenario": "Whitespace-Only Inputs",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password are required",
+                "Execution Time": 0.0215,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 13:09:14"
+            },
+            {
+                "Test Case ID": "TC008",
+                "Scenario": "Invalid Input Format",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0175,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 13:09:14"
+            },
+            {
+                "Test Case ID": "TC009",
+                "Scenario": "SQL Injection Attempt",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0176,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 13:09:14"
+            }
+        ]
+    },
+    {
+        "Run ID": "20261106_131149",
+        "Execution Date": "2026-11-06 13:11:49",
+        "Total Tests": 9,
+        "Passed": 9,
+        "Failed": 0,
+        "Pass Percentage": 100.0,
+        "Average Execution Time": 0.0178,
+        "Test Results": [
+            {
+                "Test Case ID": "TC001",
+                "Scenario": "Valid Login",
+                "Expected Status": 200,
+                "Actual Status": 200,
+                "Response Message": "Login successful",
+                "Execution Time": 0.0426,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 13:11:49"
+            },
+            {
+                "Test Case ID": "TC002",
+                "Scenario": "Invalid Login",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.0204,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 13:11:49"
+            },
+            {
+                "Test Case ID": "TC003",
+                "Scenario": "Missing Password",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0109,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 13:11:49"
+            },
+            {
+                "Test Case ID": "TC004",
+                "Scenario": "Empty Username",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username is required",
+                "Execution Time": 0.0096,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 13:11:49"
+            },
+            {
+                "Test Case ID": "TC005",
+                "Scenario": "Empty Password",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Password is required",
+                "Execution Time": 0.0246,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 13:11:49"
+            },
+            {
+                "Test Case ID": "TC006",
+                "Scenario": "Both Fields Empty",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password are required",
+                "Execution Time": 0.0098,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 13:11:49"
+            },
+            {
+                "Test Case ID": "TC007",
+                "Scenario": "Whitespace-Only Inputs",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password are required",
+                "Execution Time": 0.0082,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 13:11:49"
+            },
+            {
+                "Test Case ID": "TC008",
+                "Scenario": "Invalid Input Format",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0185,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 13:11:49"
+            },
+            {
+                "Test Case ID": "TC009",
+                "Scenario": "SQL Injection Attempt",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0154,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 13:11:49"
+            }
+        ]
+    },
+    {
+        "Run ID": "20261106_135753",
+        "Execution Date": "2026-11-06 13:57:53",
+        "Total Tests": 7,
+        "Passed": 7,
+        "Failed": 0,
+        "Pass Percentage": 100.0,
+        "Average Execution Time": 0.0187,
+        "Test Results": [
+            {
+                "Test Case ID": "TC001",
+                "Scenario": "Valid Login",
+                "Expected Status": 200,
+                "Actual Status": 200,
+                "Response Message": "Login successful",
+                "Execution Time": 0.0256,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 13:57:53"
+            },
+            {
+                "Test Case ID": "TC002",
+                "Scenario": "Invalid Login",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.0183,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 13:57:53"
+            },
+            {
+                "Test Case ID": "TC003",
+                "Scenario": "Missing Password",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0159,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 13:57:53"
+            },
+            {
+                "Test Case ID": "TC004",
+                "Scenario": "Empty Username",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username is required",
+                "Execution Time": 0.0155,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 13:57:53"
+            },
+            {
+                "Test Case ID": "TC010",
+                "Scenario": "Missing Username",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0176,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 13:57:53"
+            },
+            {
+                "Test Case ID": "TC011",
+                "Scenario": "Unexpected Data Types",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0219,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 13:57:53"
+            },
+            {
+                "Test Case ID": "TC012",
+                "Scenario": "Username With Leading or Trailing Whitespace",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0161,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 13:57:53"
+            }
+        ]
+    },
+    {
+        "Run ID": "20261106_140050",
+        "Execution Date": "2026-11-06 14:00:50",
+        "Total Tests": 7,
+        "Passed": 7,
+        "Failed": 0,
+        "Pass Percentage": 100.0,
+        "Average Execution Time": 0.0205,
+        "Test Results": [
+            {
+                "Test Case ID": "TC001",
+                "Scenario": "Valid Login",
+                "Expected Status": 200,
+                "Actual Status": 200,
+                "Response Message": "Login successful",
+                "Execution Time": 0.0409,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 14:00:50"
+            },
+            {
+                "Test Case ID": "TC002",
+                "Scenario": "Invalid Login",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.025,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 14:00:50"
+            },
+            {
+                "Test Case ID": "TC003",
+                "Scenario": "Missing Password",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0173,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 14:00:50"
+            },
+            {
+                "Test Case ID": "TC004",
+                "Scenario": "Empty Username",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username is required",
+                "Execution Time": 0.0072,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 14:00:50"
+            },
+            {
+                "Test Case ID": "TC010",
+                "Scenario": "Missing Username",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0221,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 14:00:50"
+            },
+            {
+                "Test Case ID": "TC011",
+                "Scenario": "Unexpected Data Types",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0112,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 14:00:50"
+            },
+            {
+                "Test Case ID": "TC012",
+                "Scenario": "Username With Leading or Trailing Whitespace",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0201,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 14:00:50"
+            }
+        ]
+    },
+    {
+        "Run ID": "20261106_140624",
+        "Execution Date": "2026-11-06 14:06:24",
+        "Total Tests": 12,
+        "Passed": 12,
+        "Failed": 0,
+        "Pass Percentage": 100.0,
+        "Average Execution Time": 0.0178,
+        "Test Results": [
+            {
+                "Test Case ID": "TC001",
+                "Scenario": "Valid Login",
+                "Expected Status": 200,
+                "Actual Status": 200,
+                "Response Message": "Login successful",
+                "Execution Time": 0.036,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 14:06:24"
+            },
+            {
+                "Test Case ID": "TC002",
+                "Scenario": "Invalid Login",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.0217,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 14:06:24"
+            },
+            {
+                "Test Case ID": "TC003",
+                "Scenario": "Missing Password",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0238,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 14:06:24"
+            },
+            {
+                "Test Case ID": "TC004",
+                "Scenario": "Empty Username",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username is required",
+                "Execution Time": 0.0092,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 14:06:24"
+            },
+            {
+                "Test Case ID": "TC005",
+                "Scenario": "Empty Password",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Password is required",
+                "Execution Time": 0.0112,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 14:06:24"
+            },
+            {
+                "Test Case ID": "TC006",
+                "Scenario": "Both Fields Empty",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password are required",
+                "Execution Time": 0.0177,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 14:06:24"
+            },
+            {
+                "Test Case ID": "TC007",
+                "Scenario": "Whitespace-Only Inputs",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password are required",
+                "Execution Time": 0.0168,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 14:06:24"
+            },
+            {
+                "Test Case ID": "TC008",
+                "Scenario": "Invalid Input Format",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0177,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 14:06:24"
+            },
+            {
+                "Test Case ID": "TC009",
+                "Scenario": "SQL Injection Attempt",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0072,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 14:06:24"
+            },
+            {
+                "Test Case ID": "TC010",
+                "Scenario": "Missing Username",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0277,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 14:06:24"
+            },
+            {
+                "Test Case ID": "TC011",
+                "Scenario": "Unexpected Data Types",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0183,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 14:06:24"
+            },
+            {
+                "Test Case ID": "TC012",
+                "Scenario": "Username With Leading or Trailing Whitespace",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0068,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 14:06:24"
+            }
+        ]
+    },
+    {
+        "Run ID": "20261106_143017",
+        "Execution Date": "2026-11-06 14:30:17",
+        "Total Tests": 12,
+        "Passed": 12,
+        "Failed": 0,
+        "Pass Percentage": 100.0,
+        "Average Execution Time": 0.0154,
+        "Test Results": [
+            {
+                "Test Case ID": "TC001",
+                "Scenario": "Valid Login",
+                "Expected Status": 200,
+                "Actual Status": 200,
+                "Response Message": "Login successful",
+                "Execution Time": 0.0456,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 14:30:17"
+            },
+            {
+                "Test Case ID": "TC002",
+                "Scenario": "Invalid Login",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.0186,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 14:30:17"
+            },
+            {
+                "Test Case ID": "TC003",
+                "Scenario": "Missing Password",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0188,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 14:30:17"
+            },
+            {
+                "Test Case ID": "TC004",
+                "Scenario": "Empty Username",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username is required",
+                "Execution Time": 0.0201,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 14:30:17"
+            },
+            {
+                "Test Case ID": "TC010",
+                "Scenario": "Empty Password",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Password is required",
+                "Execution Time": 0.0082,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 14:30:17"
+            },
+            {
+                "Test Case ID": "TC011",
+                "Scenario": "Missing Username",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0087,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 14:30:17"
+            },
+            {
+                "Test Case ID": "TC007",
+                "Scenario": "Unexpected Data Types",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.012,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 14:30:17"
+            },
+            {
+                "Test Case ID": "TC006",
+                "Scenario": "Both Fields Empty",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password are required",
+                "Execution Time": 0.0095,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 14:30:17"
+            },
+            {
+                "Test Case ID": "TC007",
+                "Scenario": "Whitespace-Only Inputs",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password are required",
+                "Execution Time": 0.0094,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 14:30:17"
+            },
+            {
+                "Test Case ID": "TC008",
+                "Scenario": "Invalid Input Format",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0058,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 14:30:17"
+            },
+            {
+                "Test Case ID": "TC009",
+                "Scenario": "SQL Injection Attempt",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.021,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 14:30:17"
+            },
+            {
+                "Test Case ID": "TC012",
+                "Scenario": "Username With Leading or Trailing Whitespace",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0076,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 14:30:17"
+            }
+        ]
+    },
+    {
+        "Run ID": "20261106_143757",
+        "Execution Date": "2026-11-06 14:37:57",
+        "Total Tests": 13,
+        "Passed": 13,
+        "Failed": 0,
+        "Pass Percentage": 100.0,
+        "Average Execution Time": 0.0182,
+        "Test Results": [
+            {
+                "Test Case ID": "TC001",
+                "Scenario": "Valid Login",
+                "Expected Status": 200,
+                "Actual Status": 200,
+                "Response Message": "Login successful",
+                "Execution Time": 0.0272,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 14:37:57"
+            },
+            {
+                "Test Case ID": "TC002",
+                "Scenario": "Invalid Login",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.0193,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 14:37:57"
+            },
+            {
+                "Test Case ID": "TC003",
+                "Scenario": "Missing Password",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0158,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 14:37:57"
+            },
+            {
+                "Test Case ID": "TC004",
+                "Scenario": "Empty Username",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username is required",
+                "Execution Time": 0.0165,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 14:37:57"
+            },
+            {
+                "Test Case ID": "TC005",
+                "Scenario": "Empty Password",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Password is required",
+                "Execution Time": 0.0153,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 14:37:57"
+            },
+            {
+                "Test Case ID": "TC010",
+                "Scenario": "Missing Username",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.023,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 14:37:57"
+            },
+            {
+                "Test Case ID": "TC011",
+                "Scenario": "Unexpected Data Types",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0279,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 14:37:57"
+            },
+            {
+                "Test Case ID": "TC013",
+                "Scenario": "Username With Special Characters",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0154,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 14:37:57"
+            },
+            {
+                "Test Case ID": "TC006",
+                "Scenario": "Both Fields Empty",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password are required",
+                "Execution Time": 0.0051,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 14:37:57"
+            },
+            {
+                "Test Case ID": "TC007",
+                "Scenario": "Whitespace-Only Inputs",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password are required",
+                "Execution Time": 0.0182,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 14:37:57"
+            },
+            {
+                "Test Case ID": "TC008",
+                "Scenario": "Invalid Input Format",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0162,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 14:37:57"
+            },
+            {
+                "Test Case ID": "TC009",
+                "Scenario": "SQL Injection Attempt",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0155,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 14:37:57"
+            },
+            {
+                "Test Case ID": "TC012",
+                "Scenario": "Username With Leading or Trailing Whitespace",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0211,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 14:37:57"
+            }
+        ]
+    },
+    {
+        "Run ID": "20261106_151247",
+        "Execution Date": "2026-11-06 15:12:47",
+        "Total Tests": 13,
+        "Passed": 13,
+        "Failed": 0,
+        "Pass Percentage": 100.0,
+        "Average Execution Time": 0.0142,
+        "Test Results": [
+            {
+                "Test Case ID": "TC001",
+                "Scenario": "Valid Login",
+                "Expected Status": 200,
+                "Actual Status": 200,
+                "Response Message": "Login successful",
+                "Execution Time": 0.0299,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:12:47"
+            },
+            {
+                "Test Case ID": "TC002",
+                "Scenario": "Invalid Login",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.0075,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:12:47"
+            },
+            {
+                "Test Case ID": "TC003",
+                "Scenario": "Missing Password",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0049,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:12:47"
+            },
+            {
+                "Test Case ID": "TC004",
+                "Scenario": "Empty Username",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username is required",
+                "Execution Time": 0.0179,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:12:47"
+            },
+            {
+                "Test Case ID": "TC005",
+                "Scenario": "Empty Password",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Password is required",
+                "Execution Time": 0.0172,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:12:47"
+            },
+            {
+                "Test Case ID": "TC010",
+                "Scenario": "Missing Username",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0183,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:12:47"
+            },
+            {
+                "Test Case ID": "TC011",
+                "Scenario": "Unexpected Data Types",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0093,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:12:47"
+            },
+            {
+                "Test Case ID": "TC013",
+                "Scenario": "Username With Special Characters",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0088,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:12:47"
+            },
+            {
+                "Test Case ID": "TC006",
+                "Scenario": "Both Fields Empty",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password are required",
+                "Execution Time": 0.0089,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:12:47"
+            },
+            {
+                "Test Case ID": "TC007",
+                "Scenario": "Whitespace-Only Inputs",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password are required",
+                "Execution Time": 0.019,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:12:47"
+            },
+            {
+                "Test Case ID": "TC008",
+                "Scenario": "Invalid Input Format",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0305,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:12:47"
+            },
+            {
+                "Test Case ID": "TC009",
+                "Scenario": "SQL Injection Attempt",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0072,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:12:47"
+            },
+            {
+                "Test Case ID": "TC012",
+                "Scenario": "Username With Leading or Trailing Whitespace",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0052,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:12:47"
+            }
+        ]
+    },
+    {
+        "Run ID": "20261106_152843",
+        "Execution Date": "2026-11-06 15:28:43",
+        "Total Tests": 13,
+        "Passed": 13,
+        "Failed": 0,
+        "Pass Percentage": 100.0,
+        "Average Execution Time": 0.0228,
+        "Test Results": [
+            {
+                "Test Case ID": "TC001",
+                "Scenario": "Valid Login",
+                "Expected Status": 200,
+                "Actual Status": 200,
+                "Response Message": "Login successful",
+                "Execution Time": 0.0157,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:28:43"
+            },
+            {
+                "Test Case ID": "TC002",
+                "Scenario": "Invalid Login",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.0249,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:28:43"
+            },
+            {
+                "Test Case ID": "TC003",
+                "Scenario": "Missing Password",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0178,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:28:43"
+            },
+            {
+                "Test Case ID": "TC004",
+                "Scenario": "Empty Username",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username is required",
+                "Execution Time": 0.0997,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:28:43"
+            },
+            {
+                "Test Case ID": "TC005",
+                "Scenario": "Empty Password",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Password is required",
+                "Execution Time": 0.0066,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:28:43"
+            },
+            {
+                "Test Case ID": "TC006",
+                "Scenario": "Both Fields Empty",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password are required",
+                "Execution Time": 0.0052,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:28:43"
+            },
+            {
+                "Test Case ID": "TC007",
+                "Scenario": "Whitespace-Only Inputs",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password are required",
+                "Execution Time": 0.034,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:28:43"
+            },
+            {
+                "Test Case ID": "TC008",
+                "Scenario": "Invalid Input Format",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0097,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:28:43"
+            },
+            {
+                "Test Case ID": "TC009",
+                "Scenario": "SQL Injection Attempt",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.024,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:28:43"
+            },
+            {
+                "Test Case ID": "TC010",
+                "Scenario": "Missing Username",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0103,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:28:43"
+            },
+            {
+                "Test Case ID": "TC011",
+                "Scenario": "Unexpected Data Types",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0124,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:28:43"
+            },
+            {
+                "Test Case ID": "TC012",
+                "Scenario": "Username With Leading or Trailing Whitespace",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.028,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:28:43"
+            },
+            {
+                "Test Case ID": "TC013",
+                "Scenario": "Username With Special Characters",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0086,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:28:43"
+            }
+        ]
+    },
+    {
+        "Run ID": "20261106_154154",
+        "Execution Date": "2026-11-06 15:41:54",
+        "Total Tests": 13,
+        "Passed": 13,
+        "Failed": 0,
+        "Pass Percentage": 100.0,
+        "Average Execution Time": 0.0151,
+        "Test Results": [
+            {
+                "Test Case ID": "TC001",
+                "Scenario": "Valid Login",
+                "Expected Status": 200,
+                "Actual Status": 200,
+                "Response Message": "Login successful",
+                "Execution Time": 0.0265,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:41:54"
+            },
+            {
+                "Test Case ID": "TC002",
+                "Scenario": "Invalid Login",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.0299,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:41:54"
+            },
+            {
+                "Test Case ID": "TC003",
+                "Scenario": "Missing Password",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0071,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:41:54"
+            },
+            {
+                "Test Case ID": "TC004",
+                "Scenario": "Empty Username",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username is required",
+                "Execution Time": 0.0114,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:41:54"
+            },
+            {
+                "Test Case ID": "TC005",
+                "Scenario": "Empty Password",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Password is required",
+                "Execution Time": 0.0093,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:41:54"
+            },
+            {
+                "Test Case ID": "TC006",
+                "Scenario": "Both Fields Empty",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password are required",
+                "Execution Time": 0.01,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:41:54"
+            },
+            {
+                "Test Case ID": "TC007",
+                "Scenario": "Whitespace-Only Inputs",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password are required",
+                "Execution Time": 0.0217,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:41:54"
+            },
+            {
+                "Test Case ID": "TC008",
+                "Scenario": "Invalid Input Format",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0212,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:41:54"
+            },
+            {
+                "Test Case ID": "TC009",
+                "Scenario": "SQL Injection Attempt",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0221,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:41:54"
+            },
+            {
+                "Test Case ID": "TC010",
+                "Scenario": "Missing Username",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0076,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:41:54"
+            },
+            {
+                "Test Case ID": "TC011",
+                "Scenario": "Unexpected Data Types",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0096,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:41:54"
+            },
+            {
+                "Test Case ID": "TC012",
+                "Scenario": "Username With Leading or Trailing Whitespace",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0123,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:41:54"
+            },
+            {
+                "Test Case ID": "TC013",
+                "Scenario": "Username With Special Characters",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0079,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:41:54"
+            }
+        ]
+    },
+    {
+        "Run ID": "20261106_155031",
+        "Execution Date": "2026-11-06 15:50:31",
+        "Total Tests": 21,
+        "Passed": 21,
+        "Failed": 0,
+        "Pass Percentage": 100.0,
+        "Average Execution Time": 0.0155,
+        "Test Results": [
+            {
+                "Test Case ID": "TC001",
+                "Scenario": "Valid Login",
+                "Expected Status": 200,
+                "Actual Status": 200,
+                "Response Message": "Login successful",
+                "Execution Time": 0.0422,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:50:31"
+            },
+            {
+                "Test Case ID": "TC002",
+                "Scenario": "Invalid Login",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.0098,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:50:31"
+            },
+            {
+                "Test Case ID": "TC003",
+                "Scenario": "Missing Password",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0241,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:50:31"
+            },
+            {
+                "Test Case ID": "TC004",
+                "Scenario": "Empty Username",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username is required",
+                "Execution Time": 0.008,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:50:31"
+            },
+            {
+                "Test Case ID": "TC005",
+                "Scenario": "Empty Password",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Password is required",
+                "Execution Time": 0.0227,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:50:31"
+            },
+            {
+                "Test Case ID": "TC006",
+                "Scenario": "Both Fields Empty",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password are required",
+                "Execution Time": 0.0084,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:50:31"
+            },
+            {
+                "Test Case ID": "TC007",
+                "Scenario": "Whitespace-Only Inputs",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password are required",
+                "Execution Time": 0.0097,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:50:31"
+            },
+            {
+                "Test Case ID": "TC008",
+                "Scenario": "Invalid Input Format",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0166,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:50:31"
+            },
+            {
+                "Test Case ID": "TC009",
+                "Scenario": "SQL Injection Attempt",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0089,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:50:31"
+            },
+            {
+                "Test Case ID": "TC010",
+                "Scenario": "Missing Username",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0216,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:50:31"
+            },
+            {
+                "Test Case ID": "TC011",
+                "Scenario": "Unexpected Data Types",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0177,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:50:31"
+            },
+            {
+                "Test Case ID": "TC012",
+                "Scenario": "Username With Leading or Trailing Whitespace",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0072,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:50:31"
+            },
+            {
+                "Test Case ID": "TC013",
+                "Scenario": "Username With Special Characters",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0084,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:50:31"
+            },
+            {
+                "Test Case ID": "TC014",
+                "Scenario": "Username Below Minimum Length",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username must be between 3 and 20 characters",
+                "Execution Time": 0.0089,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:50:31"
+            },
+            {
+                "Test Case ID": "TC015",
+                "Scenario": "Username At Minimum Length",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.0207,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:50:31"
+            },
+            {
+                "Test Case ID": "TC016",
+                "Scenario": "Username At Maximum Length",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.011,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:50:31"
+            },
+            {
+                "Test Case ID": "TC017",
+                "Scenario": "Username Above Maximum Length",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username must be between 3 and 20 characters",
+                "Execution Time": 0.0095,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:50:31"
+            },
+            {
+                "Test Case ID": "TC018",
+                "Scenario": "Password Below Minimum Length",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Password must be between 6 and 30 characters",
+                "Execution Time": 0.0307,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:50:31"
+            },
+            {
+                "Test Case ID": "TC019",
+                "Scenario": "Password At Minimum Length",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.0088,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:50:31"
+            },
+            {
+                "Test Case ID": "TC020",
+                "Scenario": "Password At Maximum Length",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.0094,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:50:31"
+            },
+            {
+                "Test Case ID": "TC021",
+                "Scenario": "Password Above Maximum Length",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Password must be between 6 and 30 characters",
+                "Execution Time": 0.0221,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:50:31"
+            }
+        ]
+    },
+    {
+        "Run ID": "20261106_155522",
+        "Execution Date": "2026-11-06 15:55:22",
+        "Total Tests": 21,
+        "Passed": 21,
+        "Failed": 0,
+        "Pass Percentage": 100.0,
+        "Average Execution Time": 0.0222,
+        "Test Results": [
+            {
+                "Test Case ID": "TC001",
+                "Scenario": "Valid Login",
+                "Expected Status": 200,
+                "Actual Status": 200,
+                "Response Message": "Login successful",
+                "Execution Time": 0.0457,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:55:22"
+            },
+            {
+                "Test Case ID": "TC002",
+                "Scenario": "Invalid Login",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.0121,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:55:22"
+            },
+            {
+                "Test Case ID": "TC003",
+                "Scenario": "Missing Password",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0188,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:55:22"
+            },
+            {
+                "Test Case ID": "TC004",
+                "Scenario": "Empty Username",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username is required",
+                "Execution Time": 0.0173,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:55:22"
+            },
+            {
+                "Test Case ID": "TC005",
+                "Scenario": "Empty Password",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Password is required",
+                "Execution Time": 0.0194,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:55:22"
+            },
+            {
+                "Test Case ID": "TC006",
+                "Scenario": "Both Fields Empty",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password are required",
+                "Execution Time": 0.0177,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:55:22"
+            },
+            {
+                "Test Case ID": "TC007",
+                "Scenario": "Whitespace-Only Inputs",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password are required",
+                "Execution Time": 0.0096,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:55:22"
+            },
+            {
+                "Test Case ID": "TC008",
+                "Scenario": "Invalid Input Format",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0145,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:55:22"
+            },
+            {
+                "Test Case ID": "TC009",
+                "Scenario": "SQL Injection Attempt",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0315,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:55:22"
+            },
+            {
+                "Test Case ID": "TC010",
+                "Scenario": "Missing Username",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0305,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:55:22"
+            },
+            {
+                "Test Case ID": "TC011",
+                "Scenario": "Unexpected Data Types",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0164,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:55:22"
+            },
+            {
+                "Test Case ID": "TC012",
+                "Scenario": "Username With Leading or Trailing Whitespace",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0231,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:55:22"
+            },
+            {
+                "Test Case ID": "TC013",
+                "Scenario": "Username With Special Characters",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0194,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:55:22"
+            },
+            {
+                "Test Case ID": "TC014",
+                "Scenario": "Username Below Minimum Length",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username must be between 3 and 20 characters",
+                "Execution Time": 0.0221,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:55:22"
+            },
+            {
+                "Test Case ID": "TC015",
+                "Scenario": "Username At Minimum Length",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.043,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:55:22"
+            },
+            {
+                "Test Case ID": "TC016",
+                "Scenario": "Username At Maximum Length",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.0113,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:55:22"
+            },
+            {
+                "Test Case ID": "TC017",
+                "Scenario": "Username Above Maximum Length",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username must be between 3 and 20 characters",
+                "Execution Time": 0.011,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:55:22"
+            },
+            {
+                "Test Case ID": "TC018",
+                "Scenario": "Password Below Minimum Length",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Password must be between 6 and 30 characters",
+                "Execution Time": 0.0392,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:55:22"
+            },
+            {
+                "Test Case ID": "TC019",
+                "Scenario": "Password At Minimum Length",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.0183,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:55:22"
+            },
+            {
+                "Test Case ID": "TC020",
+                "Scenario": "Password At Maximum Length",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.0193,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:55:22"
+            },
+            {
+                "Test Case ID": "TC021",
+                "Scenario": "Password Above Maximum Length",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Password must be between 6 and 30 characters",
+                "Execution Time": 0.0265,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 15:55:22"
+            }
+        ]
+    },
+    {
+        "Run ID": "20261106_171655",
+        "Execution Date": "2026-11-06 17:16:55",
+        "Total Tests": 21,
+        "Passed": 21,
+        "Failed": 0,
+        "Pass Percentage": 100.0,
+        "Average Execution Time": 0.0187,
+        "Test Results": [
+            {
+                "Test Case ID": "TC001",
+                "Scenario": "Valid Login",
+                "Expected Status": 200,
+                "Actual Status": 200,
+                "Response Message": "Login successful",
+                "Execution Time": 0.0252,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 17:16:54"
+            },
+            {
+                "Test Case ID": "TC002",
+                "Scenario": "Invalid Login",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.0169,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 17:16:54"
+            },
+            {
+                "Test Case ID": "TC003",
+                "Scenario": "Missing Password",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.016,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 17:16:54"
+            },
+            {
+                "Test Case ID": "TC004",
+                "Scenario": "Empty Username",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username is required",
+                "Execution Time": 0.0164,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 17:16:54"
+            },
+            {
+                "Test Case ID": "TC005",
+                "Scenario": "Empty Password",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Password is required",
+                "Execution Time": 0.0163,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 17:16:54"
+            },
+            {
+                "Test Case ID": "TC006",
+                "Scenario": "Both Fields Empty",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password are required",
+                "Execution Time": 0.0234,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 17:16:55"
+            },
+            {
+                "Test Case ID": "TC007",
+                "Scenario": "Whitespace-Only Inputs",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password are required",
+                "Execution Time": 0.0254,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 17:16:55"
+            },
+            {
+                "Test Case ID": "TC008",
+                "Scenario": "Invalid Input Format",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0147,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 17:16:55"
+            },
+            {
+                "Test Case ID": "TC009",
+                "Scenario": "SQL Injection Attempt",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0186,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 17:16:55"
+            },
+            {
+                "Test Case ID": "TC010",
+                "Scenario": "Missing Username",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0242,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 17:16:55"
+            },
+            {
+                "Test Case ID": "TC011",
+                "Scenario": "Unexpected Data Types",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.028,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 17:16:55"
+            },
+            {
+                "Test Case ID": "TC012",
+                "Scenario": "Username With Leading or Trailing Whitespace",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.011,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 17:16:55"
+            },
+            {
+                "Test Case ID": "TC013",
+                "Scenario": "Username With Special Characters",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0082,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 17:16:55"
+            },
+            {
+                "Test Case ID": "TC014",
+                "Scenario": "Username Below Minimum Length",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username must be between 3 and 20 characters",
+                "Execution Time": 0.0085,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 17:16:55"
+            },
+            {
+                "Test Case ID": "TC015",
+                "Scenario": "Username At Minimum Length",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.011,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 17:16:55"
+            },
+            {
+                "Test Case ID": "TC016",
+                "Scenario": "Username At Maximum Length",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.0174,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 17:16:55"
+            },
+            {
+                "Test Case ID": "TC017",
+                "Scenario": "Username Above Maximum Length",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username must be between 3 and 20 characters",
+                "Execution Time": 0.036,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 17:16:55"
+            },
+            {
+                "Test Case ID": "TC018",
+                "Scenario": "Password Below Minimum Length",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Password must be between 6 and 30 characters",
+                "Execution Time": 0.0264,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 17:16:55"
+            },
+            {
+                "Test Case ID": "TC019",
+                "Scenario": "Password At Minimum Length",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.0126,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 17:16:55"
+            },
+            {
+                "Test Case ID": "TC020",
+                "Scenario": "Password At Maximum Length",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.0194,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 17:16:55"
+            },
+            {
+                "Test Case ID": "TC021",
+                "Scenario": "Password Above Maximum Length",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Password must be between 6 and 30 characters",
+                "Execution Time": 0.0179,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 17:16:55"
+            }
+        ]
+    },
+    {
+        "Run ID": "20261106_200412",
+        "Execution Date": "2026-11-06 20:04:12",
+        "Total Tests": 23,
+        "Passed": 23,
+        "Failed": 0,
+        "Pass Percentage": 100.0,
+        "Average Execution Time": 0.0169,
+        "Test Results": [
+            {
+                "Test Case ID": "TC001",
+                "Scenario": "Valid Login",
+                "Expected Status": 200,
+                "Actual Status": 200,
+                "Response Message": "Login successful",
+                "Execution Time": 0.0178,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 20:04:11"
+            },
+            {
+                "Test Case ID": "TC002",
+                "Scenario": "Invalid Login",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.021,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 20:04:11"
+            },
+            {
+                "Test Case ID": "TC003",
+                "Scenario": "Missing Password",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0241,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 20:04:11"
+            },
+            {
+                "Test Case ID": "TC004",
+                "Scenario": "Empty Username",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username is required",
+                "Execution Time": 0.0064,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 20:04:11"
+            },
+            {
+                "Test Case ID": "TC005",
+                "Scenario": "Empty Password",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Password is required",
+                "Execution Time": 0.067,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 20:04:11"
+            },
+            {
+                "Test Case ID": "TC006",
+                "Scenario": "Both Fields Empty",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password are required",
+                "Execution Time": 0.0095,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 20:04:11"
+            },
+            {
+                "Test Case ID": "TC007",
+                "Scenario": "Whitespace-Only Inputs",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password are required",
+                "Execution Time": 0.0075,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 20:04:12"
+            },
+            {
+                "Test Case ID": "TC008",
+                "Scenario": "Invalid Input Format",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0072,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 20:04:12"
+            },
+            {
+                "Test Case ID": "TC009",
+                "Scenario": "SQL Injection Attempt",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0102,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 20:04:12"
+            },
+            {
+                "Test Case ID": "TC010",
+                "Scenario": "Missing Username",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0088,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 20:04:12"
+            },
+            {
+                "Test Case ID": "TC011",
+                "Scenario": "Unexpected Data Types",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0096,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 20:04:12"
+            },
+            {
+                "Test Case ID": "TC012",
+                "Scenario": "Username With Leading or Trailing Whitespace",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0255,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 20:04:12"
+            },
+            {
+                "Test Case ID": "TC013",
+                "Scenario": "Username With Special Characters",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0141,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 20:04:12"
+            },
+            {
+                "Test Case ID": "TC014",
+                "Scenario": "Username Below Minimum Length",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username must be between 3 and 20 characters",
+                "Execution Time": 0.0212,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 20:04:12"
+            },
+            {
+                "Test Case ID": "TC015",
+                "Scenario": "Username At Minimum Length",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.0115,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 20:04:12"
+            },
+            {
+                "Test Case ID": "TC016",
+                "Scenario": "Username At Maximum Length",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.0167,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 20:04:12"
+            },
+            {
+                "Test Case ID": "TC017",
+                "Scenario": "Username Above Maximum Length",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username must be between 3 and 20 characters",
+                "Execution Time": 0.0083,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 20:04:12"
+            },
+            {
+                "Test Case ID": "TC018",
+                "Scenario": "Password Below Minimum Length",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Password must be between 6 and 30 characters",
+                "Execution Time": 0.0209,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 20:04:12"
+            },
+            {
+                "Test Case ID": "TC019",
+                "Scenario": "Password At Minimum Length",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.0069,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 20:04:12"
+            },
+            {
+                "Test Case ID": "TC020",
+                "Scenario": "Password At Maximum Length",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.026,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 20:04:12"
+            },
+            {
+                "Test Case ID": "TC021",
+                "Scenario": "Password Above Maximum Length",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Password must be between 6 and 30 characters",
+                "Execution Time": 0.0201,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 20:04:12"
+            },
+            {
+                "Test Case ID": "TC022",
+                "Scenario": "Malformed JSON Request Body",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Request body is required",
+                "Execution Time": 0.0198,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 20:04:12"
+            },
+            {
+                "Test Case ID": "TC023",
+                "Scenario": "Request with Unexpected Extra Fields",
+                "Expected Status": 200,
+                "Actual Status": 200,
+                "Response Message": "Login successful",
+                "Execution Time": 0.0079,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 20:04:12"
+            }
+        ]
+    },
+    {
+        "Run ID": "20261106_231104",
+        "Execution Date": "2026-11-06 23:11:04",
+        "Total Tests": 28,
+        "Passed": 28,
+        "Failed": 0,
+        "Pass Percentage": 100.0,
+        "Average Execution Time": 0.0184,
+        "Test Results": [
+            {
+                "Test Case ID": "TC001",
+                "Scenario": "Valid Login",
+                "Expected Status": 200,
+                "Actual Status": 200,
+                "Response Message": "Login successful",
+                "Execution Time": 0.0087,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 23:11:03"
+            },
+            {
+                "Test Case ID": "TC002",
+                "Scenario": "Invalid Login",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.0158,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 23:11:03"
+            },
+            {
+                "Test Case ID": "TC003",
+                "Scenario": "Missing Password",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0077,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 23:11:03"
+            },
+            {
+                "Test Case ID": "TC004",
+                "Scenario": "Empty Username",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username is required",
+                "Execution Time": 0.0212,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 23:11:03"
+            },
+            {
+                "Test Case ID": "TC005",
+                "Scenario": "Empty Password",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Password is required",
+                "Execution Time": 0.0296,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 23:11:03"
+            },
+            {
+                "Test Case ID": "TC006",
+                "Scenario": "Both Fields Empty",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password are required",
+                "Execution Time": 0.0148,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 23:11:03"
+            },
+            {
+                "Test Case ID": "TC007",
+                "Scenario": "Whitespace-Only Inputs",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password are required",
+                "Execution Time": 0.0063,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 23:11:03"
+            },
+            {
+                "Test Case ID": "TC008",
+                "Scenario": "Invalid Input Format",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0217,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 23:11:03"
+            },
+            {
+                "Test Case ID": "TC009",
+                "Scenario": "SQL Injection Attempt",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0219,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 23:11:03"
+            },
+            {
+                "Test Case ID": "TC010",
+                "Scenario": "Missing Username",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0176,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 23:11:03"
+            },
+            {
+                "Test Case ID": "TC011",
+                "Scenario": "Unexpected Data Types",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0211,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 23:11:03"
+            },
+            {
+                "Test Case ID": "TC012",
+                "Scenario": "Username With Leading or Trailing Whitespace",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0166,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 23:11:03"
+            },
+            {
+                "Test Case ID": "TC013",
+                "Scenario": "Username With Special Characters",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.019,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 23:11:03"
+            },
+            {
+                "Test Case ID": "TC014",
+                "Scenario": "Username Below Minimum Length",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username must be between 3 and 20 characters",
+                "Execution Time": 0.0094,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 23:11:03"
+            },
+            {
+                "Test Case ID": "TC015",
+                "Scenario": "Username At Minimum Length",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.0162,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 23:11:03"
+            },
+            {
+                "Test Case ID": "TC016",
+                "Scenario": "Username At Maximum Length",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.0281,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 23:11:03"
+            },
+            {
+                "Test Case ID": "TC017",
+                "Scenario": "Username Above Maximum Length",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username must be between 3 and 20 characters",
+                "Execution Time": 0.022,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 23:11:03"
+            },
+            {
+                "Test Case ID": "TC018",
+                "Scenario": "Password Below Minimum Length",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Password must be between 6 and 30 characters",
+                "Execution Time": 0.0169,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 23:11:03"
+            },
+            {
+                "Test Case ID": "TC019",
+                "Scenario": "Password At Minimum Length",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.0247,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 23:11:03"
+            },
+            {
+                "Test Case ID": "TC020",
+                "Scenario": "Password At Maximum Length",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.0205,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 23:11:03"
+            },
+            {
+                "Test Case ID": "TC021",
+                "Scenario": "Password Above Maximum Length",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Password must be between 6 and 30 characters",
+                "Execution Time": 0.0265,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 23:11:04"
+            },
+            {
+                "Test Case ID": "TC022",
+                "Scenario": "Malformed JSON Request Body",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Request body is required",
+                "Execution Time": 0.021,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 23:11:04"
+            },
+            {
+                "Test Case ID": "TC023",
+                "Scenario": "Request with Unexpected Extra Fields",
+                "Expected Status": 200,
+                "Actual Status": 200,
+                "Response Message": "Login successful",
+                "Execution Time": 0.0174,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 23:11:04"
+            },
+            {
+                "Test Case ID": "TC024",
+                "Scenario": "Valid Username with Incorrect Password",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.0227,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 23:11:04"
+            },
+            {
+                "Test Case ID": "TC025",
+                "Scenario": "Null Credential Values",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0174,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 23:11:04"
+            },
+            {
+                "Test Case ID": "TC026",
+                "Scenario": "Non-String Password - Numeric",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0116,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 23:11:04"
+            },
+            {
+                "Test Case ID": "TC027",
+                "Scenario": "Non-String Password - Array",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0288,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 23:11:04"
+            },
+            {
+                "Test Case ID": "TC028",
+                "Scenario": "Non-String Password - Object",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0112,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-06 23:11:04"
+            }
+        ]
+    },
+    {
+        "Run ID": "20261107_105351",
+        "Execution Date": "2026-11-07 10:53:51",
+        "Total Tests": 30,
+        "Passed": 30,
+        "Failed": 0,
+        "Pass Percentage": 100.0,
+        "Average Execution Time": 0.0161,
+        "Test Results": [
+            {
+                "Test Case ID": "TC001",
+                "Scenario": "Valid Login",
+                "Expected Status": 200,
+                "Actual Status": 200,
+                "Response Message": "Login successful",
+                "Execution Time": 0.0169,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 10:53:50"
+            },
+            {
+                "Test Case ID": "TC002",
+                "Scenario": "Invalid Login",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.0226,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 10:53:50"
+            },
+            {
+                "Test Case ID": "TC003",
+                "Scenario": "Missing Password",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0244,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 10:53:50"
+            },
+            {
+                "Test Case ID": "TC004",
+                "Scenario": "Empty Username",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username is required",
+                "Execution Time": 0.0187,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 10:53:50"
+            },
+            {
+                "Test Case ID": "TC005",
+                "Scenario": "Empty Password",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Password is required",
+                "Execution Time": 0.0144,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 10:53:50"
+            },
+            {
+                "Test Case ID": "TC006",
+                "Scenario": "Both Fields Empty",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password are required",
+                "Execution Time": 0.0234,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 10:53:50"
+            },
+            {
+                "Test Case ID": "TC007",
+                "Scenario": "Whitespace-Only Inputs",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password are required",
+                "Execution Time": 0.0089,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 10:53:50"
+            },
+            {
+                "Test Case ID": "TC008",
+                "Scenario": "Invalid Input Format",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0108,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 10:53:50"
+            },
+            {
+                "Test Case ID": "TC009",
+                "Scenario": "SQL Injection Attempt",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0117,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 10:53:50"
+            },
+            {
+                "Test Case ID": "TC010",
+                "Scenario": "Missing Username",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0088,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 10:53:50"
+            },
+            {
+                "Test Case ID": "TC011",
+                "Scenario": "Unexpected Data Types",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.008,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 10:53:50"
+            },
+            {
+                "Test Case ID": "TC012",
+                "Scenario": "Username With Leading or Trailing Whitespace",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0221,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 10:53:50"
+            },
+            {
+                "Test Case ID": "TC013",
+                "Scenario": "Username With Special Characters",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0112,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 10:53:50"
+            },
+            {
+                "Test Case ID": "TC014",
+                "Scenario": "Username Below Minimum Length",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username must be between 3 and 20 characters",
+                "Execution Time": 0.0107,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 10:53:50"
+            },
+            {
+                "Test Case ID": "TC015",
+                "Scenario": "Username At Minimum Length",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.0088,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 10:53:50"
+            },
+            {
+                "Test Case ID": "TC016",
+                "Scenario": "Username At Maximum Length",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.0186,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 10:53:50"
+            },
+            {
+                "Test Case ID": "TC017",
+                "Scenario": "Username Above Maximum Length",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username must be between 3 and 20 characters",
+                "Execution Time": 0.0164,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 10:53:50"
+            },
+            {
+                "Test Case ID": "TC018",
+                "Scenario": "Password Below Minimum Length",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Password must be between 6 and 30 characters",
+                "Execution Time": 0.0183,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 10:53:51"
+            },
+            {
+                "Test Case ID": "TC019",
+                "Scenario": "Password At Minimum Length",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.0096,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 10:53:51"
+            },
+            {
+                "Test Case ID": "TC020",
+                "Scenario": "Password At Maximum Length",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.0216,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 10:53:51"
+            },
+            {
+                "Test Case ID": "TC021",
+                "Scenario": "Password Above Maximum Length",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Password must be between 6 and 30 characters",
+                "Execution Time": 0.0095,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 10:53:51"
+            },
+            {
+                "Test Case ID": "TC022",
+                "Scenario": "Malformed JSON Request Body",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Request body is required",
+                "Execution Time": 0.0199,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 10:53:51"
+            },
+            {
+                "Test Case ID": "TC023",
+                "Scenario": "Request with Unexpected Extra Fields",
+                "Expected Status": 200,
+                "Actual Status": 200,
+                "Response Message": "Login successful",
+                "Execution Time": 0.0106,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 10:53:51"
+            },
+            {
+                "Test Case ID": "TC024",
+                "Scenario": "Valid Username with Incorrect Password",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.0139,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 10:53:51"
+            },
+            {
+                "Test Case ID": "TC025",
+                "Scenario": "Null Credential Values",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0208,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 10:53:51"
+            },
+            {
+                "Test Case ID": "TC026",
+                "Scenario": "Non-String Password - Numeric",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0242,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 10:53:51"
+            },
+            {
+                "Test Case ID": "TC027",
+                "Scenario": "Non-String Password - Array",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0229,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 10:53:51"
+            },
+            {
+                "Test Case ID": "TC028",
+                "Scenario": "Non-String Password - Object",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0187,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 10:53:51"
+            },
+            {
+                "Test Case ID": "TC029",
+                "Scenario": "Username With Array Data Type",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0116,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 10:53:51"
+            },
+            {
+                "Test Case ID": "TC030",
+                "Scenario": "Username With Object Data Type",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0242,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 10:53:51"
+            }
+        ]
+    },
+    {
+        "Run ID": "20261107_111151",
+        "Execution Date": "2026-11-07 11:11:51",
+        "Total Tests": 32,
+        "Passed": 32,
+        "Failed": 0,
+        "Pass Percentage": 100.0,
+        "Average Execution Time": 0.0162,
+        "Test Results": [
+            {
+                "Test Case ID": "TC001",
+                "Scenario": "Valid Login",
+                "Expected Status": 200,
+                "Actual Status": 200,
+                "Response Message": "Login successful",
+                "Execution Time": 0.0144,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 11:11:51"
+            },
+            {
+                "Test Case ID": "TC002",
+                "Scenario": "Invalid Login",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.0074,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 11:11:51"
+            },
+            {
+                "Test Case ID": "TC003",
+                "Scenario": "Missing Password",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0101,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 11:11:51"
+            },
+            {
+                "Test Case ID": "TC004",
+                "Scenario": "Empty Username",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username is required",
+                "Execution Time": 0.0311,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 11:11:51"
+            },
+            {
+                "Test Case ID": "TC005",
+                "Scenario": "Empty Password",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Password is required",
+                "Execution Time": 0.0056,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 11:11:51"
+            },
+            {
+                "Test Case ID": "TC006",
+                "Scenario": "Both Fields Empty",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password are required",
+                "Execution Time": 0.0095,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 11:11:51"
+            },
+            {
+                "Test Case ID": "TC007",
+                "Scenario": "Whitespace-Only Inputs",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password are required",
+                "Execution Time": 0.0178,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 11:11:51"
+            },
+            {
+                "Test Case ID": "TC008",
+                "Scenario": "Invalid Input Format",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0084,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 11:11:51"
+            },
+            {
+                "Test Case ID": "TC009",
+                "Scenario": "SQL Injection Attempt",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0133,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 11:11:51"
+            },
+            {
+                "Test Case ID": "TC010",
+                "Scenario": "Missing Username",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0329,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 11:11:51"
+            },
+            {
+                "Test Case ID": "TC011",
+                "Scenario": "Unexpected Data Types",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0125,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 11:11:51"
+            },
+            {
+                "Test Case ID": "TC012",
+                "Scenario": "Username With Leading or Trailing Whitespace",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0099,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 11:11:51"
+            },
+            {
+                "Test Case ID": "TC013",
+                "Scenario": "Username With Special Characters",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username format is invalid",
+                "Execution Time": 0.0211,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 11:11:51"
+            },
+            {
+                "Test Case ID": "TC014",
+                "Scenario": "Username Below Minimum Length",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username must be between 3 and 20 characters",
+                "Execution Time": 0.0171,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 11:11:51"
+            },
+            {
+                "Test Case ID": "TC015",
+                "Scenario": "Username At Minimum Length",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.0275,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 11:11:51"
+            },
+            {
+                "Test Case ID": "TC016",
+                "Scenario": "Username At Maximum Length",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.0169,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 11:11:51"
+            },
+            {
+                "Test Case ID": "TC017",
+                "Scenario": "Username Above Maximum Length",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username must be between 3 and 20 characters",
+                "Execution Time": 0.0189,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 11:11:51"
+            },
+            {
+                "Test Case ID": "TC018",
+                "Scenario": "Password Below Minimum Length",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Password must be between 6 and 30 characters",
+                "Execution Time": 0.0216,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 11:11:51"
+            },
+            {
+                "Test Case ID": "TC019",
+                "Scenario": "Password At Minimum Length",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.0087,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 11:11:51"
+            },
+            {
+                "Test Case ID": "TC020",
+                "Scenario": "Password At Maximum Length",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.0193,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 11:11:51"
+            },
+            {
+                "Test Case ID": "TC021",
+                "Scenario": "Password Above Maximum Length",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Password must be between 6 and 30 characters",
+                "Execution Time": 0.0164,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 11:11:51"
+            },
+            {
+                "Test Case ID": "TC022",
+                "Scenario": "Malformed JSON Request Body",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Request body is required",
+                "Execution Time": 0.0186,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 11:11:51"
+            },
+            {
+                "Test Case ID": "TC023",
+                "Scenario": "Request with Unexpected Extra Fields",
+                "Expected Status": 200,
+                "Actual Status": 200,
+                "Response Message": "Login successful",
+                "Execution Time": 0.0086,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 11:11:51"
+            },
+            {
+                "Test Case ID": "TC024",
+                "Scenario": "Valid Username with Incorrect Password",
+                "Expected Status": 401,
+                "Actual Status": 401,
+                "Response Message": "Invalid username or password",
+                "Execution Time": 0.0286,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 11:11:51"
+            },
+            {
+                "Test Case ID": "TC025",
+                "Scenario": "Null Credential Values",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0079,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 11:11:51"
+            },
+            {
+                "Test Case ID": "TC026",
+                "Scenario": "Non-String Password - Numeric",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0254,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 11:11:51"
+            },
+            {
+                "Test Case ID": "TC027",
+                "Scenario": "Non-String Password - Array",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0219,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 11:11:51"
+            },
+            {
+                "Test Case ID": "TC028",
+                "Scenario": "Non-String Password - Object",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0095,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 11:11:51"
+            },
+            {
+                "Test Case ID": "TC029",
+                "Scenario": "Username With Array Data Type",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0098,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 11:11:51"
+            },
+            {
+                "Test Case ID": "TC030",
+                "Scenario": "Username With Object Data Type",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0093,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 11:11:51"
+            },
+            {
+                "Test Case ID": "TC031",
+                "Scenario": "Username With Boolean Data Type",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0228,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 11:11:51"
+            },
+            {
+                "Test Case ID": "TC032",
+                "Scenario": "Password With Boolean Data Type",
+                "Expected Status": 400,
+                "Actual Status": 400,
+                "Response Message": "Username and password must be strings",
+                "Execution Time": 0.0159,
+                "Result": "PASSED",
+                "Execution Date": "2026-11-07 11:11:51"
+            }
+        ]
+    }
+]

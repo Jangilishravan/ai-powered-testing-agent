@@ -1,0 +1,154 @@
+{
+    "Analysis Date": "2026-11-07 12:42:25",
+    "Summary": {
+        "Total Generated Tests": 32,
+        "Total Executed Tests": 32,
+        "Total Passed Tests": 32,
+        "Total Failed Tests": 0,
+        "Total Unexecuted Tests": 0,
+        "Total Missing Scenarios": 0,
+        "Execution Coverage Percentage": 100.0,
+        "Pass Percentage": 100.0
+    },
+    "Missing Tests": [],
+    "Unexecuted Tests": [],
+    "Failed Tests": [],
+    "Historical Execution Summary": [
+        {
+            "Run ID": "20261106_130914",
+            "Execution Date": "2026-11-06 13:09:14",
+            "Total Tests": 9,
+            "Passed": 9,
+            "Failed": 0,
+            "Pass Percentage": 100.0
+        },
+        {
+            "Run ID": "20261106_131149",
+            "Execution Date": "2026-11-06 13:11:49",
+            "Total Tests": 9,
+            "Passed": 9,
+            "Failed": 0,
+            "Pass Percentage": 100.0
+        },
+        {
+            "Run ID": "20261106_135753",
+            "Execution Date": "2026-11-06 13:57:53",
+            "Total Tests": 7,
+            "Passed": 7,
+            "Failed": 0,
+            "Pass Percentage": 100.0
+        },
+        {
+            "Run ID": "20261106_140050",
+            "Execution Date": "2026-11-06 14:00:50",
+            "Total Tests": 7,
+            "Passed": 7,
+            "Failed": 0,
+            "Pass Percentage": 100.0
+        },
+        {
+            "Run ID": "20261106_140624",
+            "Execution Date": "2026-11-06 14:06:24",
+            "Total Tests": 12,
+            "Passed": 12,
+            "Failed": 0,
+            "Pass Percentage": 100.0
+        },
+        {
+            "Run ID": "20261106_143017",
+            "Execution Date": "2026-11-06 14:30:17",
+            "Total Tests": 12,
+            "Passed": 12,
+            "Failed": 0,
+            "Pass Percentage": 100.0
+        },
+        {
+            "Run ID": "20261106_143757",
+            "Execution Date": "2026-11-06 14:37:57",
+            "Total Tests": 13,
+            "Passed": 13,
+            "Failed": 0,
+            "Pass Percentage": 100.0
+        },
+        {
+            "Run ID": "20261106_151247",
+            "Execution Date": "2026-11-06 15:12:47",
+            "Total Tests": 13,
+            "Passed": 13,
+            "Failed": 0,
+            "Pass Percentage": 100.0
+        },
+        {
+            "Run ID": "20261106_152843",
+            "Execution Date": "2026-11-06 15:28:43",
+            "Total Tests": 13,
+            "Passed": 13,
+            "Failed": 0,
+            "Pass Percentage": 100.0
+        },
+        {
+            "Run ID": "20261106_154154",
+            "Execution Date": "2026-11-06 15:41:54",
+            "Total Tests": 13,
+            "Passed": 13,
+            "Failed": 0,
+            "Pass Percentage": 100.0
+        },
+        {
+            "Run ID": "20261106_155031",
+            "Execution Date": "2026-11-06 15:50:31",
+            "Total Tests": 21,
+            "Passed": 21,
+            "Failed": 0,
+            "Pass Percentage": 100.0
+        },
+        {
+            "Run ID": "20261106_155522",
+            "Execution Date": "2026-11-06 15:55:22",
+            "Total Tests": 21,
+            "Passed": 21,
+            "Failed": 0,
+            "Pass Percentage": 100.0
+        },
+        {
+            "Run ID": "20261106_171655",
+            "Execution Date": "2026-11-06 17:16:55",
+            "Total Tests": 21,
+            "Passed": 21,
+            "Failed": 0,
+            "Pass Percentage": 100.0
+        },
+        {
+            "Run ID": "20261106_200412",
+            "Execution Date": "2026-11-06 20:04:12",
+            "Total Tests": 23,
+            "Passed": 23,
+            "Failed": 0,
+            "Pass Percentage": 100.0
+        },
+        {
+            "Run ID": "20261106_231104",
+            "Execution Date": "2026-11-06 23:11:04",
+            "Total Tests": 28,
+            "Passed": 28,
+            "Failed": 0,
+            "Pass Percentage": 100.0
+        },
+        {
+            "Run ID": "20261107_105351",
+            "Execution Date": "2026-11-07 10:53:51",
+            "Total Tests": 30,
+            "Passed": 30,
+            "Failed": 0,
+            "Pass Percentage": 100.0
+        },
+        {
+            "Run ID": "20261107_111151",
+            "Execution Date": "2026-11-07 11:11:51",
+            "Total Tests": 32,
+            "Passed": 32,
+            "Failed": 0,
+            "Pass Percentage": 100.0
+        }
+    ]
+}

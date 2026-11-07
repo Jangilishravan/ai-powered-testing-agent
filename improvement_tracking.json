@@ -1,0 +1,61 @@
+{
+    "Total Tests Tracked": 5,
+    "Minimum Required Observations": 5,
+    "Tracking Results": [
+        {
+            "Test Case ID": "TC004",
+            "Scenario": "Empty Username",
+            "Previous Observations": 16,
+            "Previous Median": 0.01645,
+            "Latest Execution Time": 0.0311,
+            "Change Percentage": 89.06,
+            "Performance Status": "SLOWER",
+            "Latest Result": "PASSED",
+            "Analysis Date": "2026-11-07 12:45:26"
+        },
+        {
+            "Test Case ID": "TC005",
+            "Scenario": "Empty Password",
+            "Previous Observations": 13,
+            "Previous Median": 0.0172,
+            "Latest Execution Time": 0.0056,
+            "Change Percentage": -67.44,
+            "Performance Status": "FASTER",
+            "Latest Result": "PASSED",
+            "Analysis Date": "2026-11-07 12:45:26"
+        },
+        {
+            "Test Case ID": "TC016",
+            "Scenario": "Username At Maximum Length",
+            "Previous Observations": 6,
+            "Previous Median": 0.01705,
+            "Latest Execution Time": 0.0169,
+            "Change Percentage": -0.88,
+            "Performance Status": "FASTER",
+            "Latest Result": "PASSED",
+            "Analysis Date": "2026-11-07 12:45:26"
+        },
+        {
+            "Test Case ID": "TC019",
+            "Scenario": "Password At Minimum Length",
+            "Previous Observations": 6,
+            "Previous Median": 0.011099999999999999,
+            "Latest Execution Time": 0.0087,
+            "Change Percentage": -21.62,
+            "Performance Status": "FASTER",
+            "Latest Result": "PASSED",
+            "Analysis Date": "2026-11-07 12:45:26"
+        },
+        {
+            "Test Case ID": "TC020",
+            "Scenario": "Password At Maximum Length",
+            "Previous Observations": 6,
+            "Previous Median": 0.019950000000000002,
+            "Latest Execution Time": 0.0193,
+            "Change Percentage": -3.26,
+            "Performance Status": "FASTER",
+            "Latest Result": "PASSED",
+            "Analysis Date": "2026-11-07 12:45:26"
+        }
+    ]
+}

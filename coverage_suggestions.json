@@ -1,0 +1,22 @@
+[
+    {
+        "Scenario": "Missing Username",
+        "Reason": "Checks validation when the username field is omitted, which differs from submitting an empty username.",
+        "Priority": "High"
+    },
+    {
+        "Scenario": "Unexpected Data Types",
+        "Reason": "Verifies that null, numeric, array, or object values for username or password are rejected safely.",
+        "Priority": "High"
+    },
+    {
+        "Scenario": "Credential Length Boundaries",
+        "Reason": "Checks behavior at and beyond documented minimum and maximum username and password lengths.",
+        "Priority": "Medium"
+    },
+    {
+        "Scenario": "Username With Leading or Trailing Whitespace",
+        "Reason": "Checks whether surrounding whitespace is handled consistently for an otherwise non-empty username.",
+        "Priority": "Medium"
+    }
+]

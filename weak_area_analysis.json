@@ -1,0 +1,113 @@
+{
+    "Total Historical Runs": 17,
+    "Total Tests Analyzed": 32,
+    "Total Weak Tests": 5,
+    "High Priority": 0,
+    "Medium Priority": 0,
+    "Low Priority": 5,
+    "Flaky Tests": 0,
+    "Repeated Failures": 0,
+    "Performance Concerns": 5,
+    "Weak Areas": [
+        {
+            "Test Case ID": "TC004",
+            "Scenario": "Empty Username",
+            "Priority": "LOW",
+            "Issues Detected": [
+                "Unusual execution time spikes"
+            ],
+            "Pass Rate": 100.0,
+            "Runs Observed": 17,
+            "Latest Result": "PASSED",
+            "Median Execution Time": 0.0165,
+            "Unusual Slow Execution Count": 1,
+            "Slow Executions": [
+                {
+                    "Run ID": "20261106_152843",
+                    "Execution Date": "2026-11-06 15:28:43",
+                    "Execution Time": 0.0997
+                }
+            ]
+        },
+        {
+            "Test Case ID": "TC005",
+            "Scenario": "Empty Password",
+            "Priority": "LOW",
+            "Issues Detected": [
+                "Unusual execution time spikes"
+            ],
+            "Pass Rate": 100.0,
+            "Runs Observed": 14,
+            "Latest Result": "PASSED",
+            "Median Execution Time": 0.0168,
+            "Unusual Slow Execution Count": 1,
+            "Slow Executions": [
+                {
+                    "Run ID": "20261106_200412",
+                    "Execution Date": "2026-11-06 20:04:12",
+                    "Execution Time": 0.067
+                }
+            ]
+        },
+        {
+            "Test Case ID": "TC016",
+            "Scenario": "Username At Maximum Length",
+            "Priority": "LOW",
+            "Issues Detected": [
+                "Unusual execution time spikes"
+            ],
+            "Pass Rate": 100.0,
+            "Runs Observed": 7,
+            "Latest Result": "PASSED",
+            "Median Execution Time": 0.0169,
+            "Unusual Slow Execution Count": 1,
+            "Slow Executions": [
+                {
+                    "Run ID": "20261106_231104",
+                    "Execution Date": "2026-11-06 23:11:04",
+                    "Execution Time": 0.0281
+                }
+            ]
+        },
+        {
+            "Test Case ID": "TC019",
+            "Scenario": "Password At Minimum Length",
+            "Priority": "LOW",
+            "Issues Detected": [
+                "Unusual execution time spikes"
+            ],
+            "Pass Rate": 100.0,
+            "Runs Observed": 7,
+            "Latest Result": "PASSED",
+            "Median Execution Time": 0.0096,
+            "Unusual Slow Execution Count": 1,
+            "Slow Executions": [
+                {
+                    "Run ID": "20261106_231104",
+                    "Execution Date": "2026-11-06 23:11:04",
+                    "Execution Time": 0.0247
+                }
+            ]
+        },
+        {
+            "Test Case ID": "TC020",
+            "Scenario": "Password At Maximum Length",
+            "Priority": "LOW",
+            "Issues Detected": [
+                "Unusual execution time spikes"
+            ],
+            "Pass Rate": 100.0,
+            "Runs Observed": 7,
+            "Latest Result": "PASSED",
+            "Median Execution Time": 0.0194,
+            "Unusual Slow Execution Count": 1,
+            "Slow Executions": [
+                {
+                    "Run ID": "20261106_200412",
+                    "Execution Date": "2026-11-06 20:04:12",
+                    "Execution Time": 0.026
+                }
+            ]
+        }
+    ]
+}
