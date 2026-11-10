@@ -68,6 +68,49 @@ The AI Testing Agent generates an interactive HTML dashboard that provides a con
 
 ## Project Architecture
 
+
+```mermaid
+flowchart TD
+    A["AI Test Generation<br/>ai_test_generator.py + ai_client.py"]
+    B["Generated Test Cases<br/>generated_test_cases.json"]
+    C["Test Execution Engine<br/>execute_generated_tests.py"]
+    D["Flask Authentication API<br/>auth_server.py"]
+    E["Execution Results<br/>execution_results.json"]
+    F["Execution History<br/>execution_history.json"]
+
+    G["Coverage Analysis<br/>coverage_analyzer.py"]
+    H["Historical Analysis<br/>historical_test_analyzer.py"]
+    I["Performance Analysis<br/>performance_analyzer.py"]
+    J["Weak Area Detection<br/>weak_area_detector.py"]
+    K["Improvement Tracking<br/>improvement_tracker.py"]
+
+    L["HTML Report Generator<br/>generate_html_report.py"]
+    M["Interactive Dashboard<br/>execution_report.html"]
+
+    A --> B
+    B --> C
+    C <--> D
+    C --> E
+    C --> F
+
+    E --> G
+    F --> H
+    F --> I
+    F --> J
+    F --> K
+
+    G --> L
+    H --> L
+    I --> L
+    J --> L
+    K --> L
+    L --> M
+
+    N["Playwright UI Automation<br/>test_login.py + pages/login_page.py"]
+    O["SauceDemo Website"]
+    N <--> O
+```
+
 The project follows a modular architecture:
 
 1. **Test Automation Layer:** Runs UI and API automation tests.
