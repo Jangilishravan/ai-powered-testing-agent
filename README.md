@@ -38,6 +38,34 @@ The framework can execute test scenarios against a local authentication API, ana
 | Chart.js | Data visualization |
 | Git and GitHub | Version control and project hosting |
 
+## Dashboard Preview
+
+The AI Testing Agent generates an interactive HTML dashboard that provides a consolidated view of test execution, coverage, historical trends, and performance analysis.
+
+### 1. Dashboard Overview
+
+![Dashboard Overview](docs/screenshots/dashboard-overview.png)
+
+### 2. Reliability Scorecard
+
+![Reliability Scorecard](docs/screenshots/reliability-scorecard.png)
+
+### 3. Test Gap Analysis
+
+![Test Gap Analysis](docs/screenshots/test-gap-analysis.png)
+
+### 4. Historical Trend Analysis
+
+![Historical Trends](docs/screenshots/historical-trends.png)
+
+### 5. Performance Analysis
+
+![Performance Analysis](docs/screenshots/performance-analysis.png)
+
+### 6. Weak Areas and Improvement Tracking
+
+![Weak Area Analysis](docs/screenshots/weak-area-analysis.png)
+
 ## Project Architecture
 
 The project follows a modular architecture:

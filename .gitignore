@@ -23,3 +23,7 @@ screenshots/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Allow portfolio screenshots inside docs
+!docs/
+!docs/screenshots/
